@@ -4,8 +4,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class App {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
-        HelloWorld bean0 = (HelloWorld) applicationContext.getBean("helloworld");
-        HelloWorld bean1 = (HelloWorld) applicationContext.getBean("helloworld");
+        HelloWorld bean0 = (HelloWorld) applicationContext.getBean("helloWorld");
+        HelloWorld bean1 = (HelloWorld) applicationContext.getBean("helloWorld");
         Cat cat0 = (Cat) applicationContext.getBean("cat");
         Cat cat1 = (Cat) applicationContext.getBean("cat");
 
